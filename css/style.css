@@ -1,0 +1,177 @@
+.attribution { 
+    font-size: 11px; 
+    margin-top: 2%;
+    text-align: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+* {
+    font-family: 'Space Mono', monospace;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+/* MOBILE STYLES */
+body {
+    margin: 0;
+}
+html {
+    background-color: #c5e4e7;
+}
+.logo {
+    display: block;
+    margin: 40px auto;
+    width: 23%;
+}
+.main {
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 7% 7% 7% 7%;
+    width: 100%;
+}
+.main h2 {
+    color: #506566;
+    margin-bottom: 15px;
+}
+#bill,
+#people {
+    background-color: #f3f8fb;
+    border: none;
+    display: block;
+    height: 50px;
+    margin: 0 0 25px 0;
+    padding: 0 5% 0 5%;
+    text-align: right;
+    width: 100%;
+}
+#bill[type=number],
+#people[type=number]{
+    color: #00474b;
+    font-weight: 700;
+    font-size: 24px;
+}
+.tipbtn {
+    background-color: #00474b;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    height: 50px;
+    margin-bottom: 10px;
+    width: 48%;
+}
+.active {
+    background-color: #26c2ad;
+    color: #00474b;
+}
+#tipfield {
+    background-color: #f3f8fb;
+    border: none;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 700;
+    height: 50px;
+    text-align: center;
+    width: 48%;
+}
+.num {
+    margin-top: 15px;
+}
+.totalarea {
+    background-color: #00474b;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 15px;
+    padding: 12% 10% 2% 10%;
+}
+.totalperson {
+    margin-top: 25px;
+}
+.tipright,
+.totalright {
+    float: right;
+}
+.tipleft,
+.totalleft {
+    float: left;
+}
+.tipright p,
+.tipleft p {
+   color: #7fa0a9;
+   font-size: 14px;
+   margin-top: 5px; 
+}
+p.tipcount,
+p.totalcount {
+    color: #24bda9;
+    font-size: 24px;
+    font-weight: 700;
+}
+.clearp {
+    clear: both;
+}
+#reset {
+    background-color: #26c2ad;
+    border-radius: 8px;
+    color: #00474b;
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    height: 50px;
+    margin: 35px auto 20px auto;
+    width: 100%;
+}
+
+/* DESKTOP STYLES */
+@media screen and (min-width: 741px){
+.logo {
+    max-width: 110px;
+    width: 12%;
+}
+.main {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 3%;
+    width: 90%;
+}
+.inputarea {
+    float: left;
+    margin: 0 2%;
+    width: 47%;
+}
+.totalarea {
+    float: right;
+    padding: 5% 5% 0 5%;
+    position: relative;
+    width: 47%;
+}
+.tipbtn,
+#tipfield {
+    width: 30%;
+}
+#tipfield {
+    font-size: 18px;
+}
+#reset {
+    bottom: 0;
+    position: absolute;
+    width: 80%;
+}
+
+}
